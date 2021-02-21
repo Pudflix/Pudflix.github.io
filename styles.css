@@ -1,28 +1,31 @@
 body {
   background-color: mintcream;
   text-align: center;
+  font-family: Courier;
+
 }
 
 h1 {
   color: violet;
-  font-family: arial;
+  font-family: Courier;
   font-size: 125%;
   text-align: center;
 }
 
 p {
   color: Violet;
-  font-family: arial;
+  font-family: Courier;
   text-align: center;
 }
 
 nav {
-  font-family: arial;
+  font-family: Courier;
   display: block;
+  text-align: center;
 }
 
 f {
-  font-family: arial;
+  font-family: Courier;
   color: Violet;
   font-size: 75%;
 
