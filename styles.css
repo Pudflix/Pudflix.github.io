@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-head {
+h1 {
   color: DodgerBlue;
   font-family: arial;
   font-size: 250%;
@@ -18,4 +18,4 @@ p {
 
 ul {
   font-family: arial;
-  }
+}
