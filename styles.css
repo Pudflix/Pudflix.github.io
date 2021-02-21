@@ -1,14 +1,21 @@
 body {
   background-color: mintcream;
+  text-align: center;
 }
 
 h1 {
   color: DodgerBlue;
   font-family: arial;
   font-size: 250%;
+  text-align: center;
 }
 
 p {
   color: Violet;
   font-family: arial;
+  text-align: center;
 }
+
+ul {
+  font-family: arial;
+  }

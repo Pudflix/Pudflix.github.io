@@ -2,36 +2,50 @@
 <html>
 
   <head>
-    <title>Pudflix</title>
-    <link rel="stylesheet" href="styles.css">
+    <h1>Welcome to Pudflix</h1>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: dodgerblue;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: violet;
+      }
+
+      .active {
+        background-color: dodgerblue;
+      }
+
+    </style>
   </head>
 
   <body>
 
-    <h1 style="text-align:center;"><b>Welcome to Pudflix</b></h1>
-    <style>
-      a:link,
-      a:visited {
-        background-color: dodgerblue;
-        color: white;
-        padding: 5px 15px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
+    <ul>
+      <li><a href="#index">Home</a></li>
+      <li><a href="#Tutorial">Tutorial</a></li>
+      <li><a href="#Tips">Tips</a></li>
+      <li><a href="#Danny Ombi Link">Ombi</a></li>
+      <li style="float:right"><a href="#Invite">Invite</a></li>
 
-      a:hover,
-      a:active {
-        background-color: violet;
-      }
+    </ul>
 
-    </style>
-
-    <body>
-
-      <a href="default.asp" target="_blank">Home</a>
-      <p style="text-align:center;"><i>Built on Hawt Six</i></p>
-
-    </body>
   </body>
-  <html>
+
+</html>
