@@ -2,6 +2,7 @@ body {
   background-color: mintcream;
   text-align: center;
 }
+
 h1 {
   color: violet;
   font-family: sans-serif;
@@ -10,20 +11,24 @@ h1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 p {
   color: black;
   font-family: sans-serif;
   text-align: center;
 }
+
 nav {
   font-family: sans-serif;
 }
+
 footer {
   font-family: sans-serif;
   color: Violet;
   font-size: 75%;
   padding: 125px;
 }
+
 .topnav {
   background-color: dodgerblue;
   overflow: hidden;
@@ -34,6 +39,7 @@ footer {
   display: inline-block;
   list-style-type: none;
 }
+
 .topnav a {
   color: white;
   text-align: none;
@@ -42,11 +48,13 @@ footer {
   font-size: 20px;
   border-radius: 25px;
 }
+
 .topnav a:hover {
   background-color: violet;
   color: white;
   border-radius: 25px;
 }
+
 .topnav a.active {
   background-color: violet;
   color: white;
