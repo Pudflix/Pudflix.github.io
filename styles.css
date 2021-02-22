@@ -1,60 +1,53 @@
 body {
   background-color: mintcream;
   text-align: center;
-  font-family: Courier;
-
 }
 
 h1 {
   color: violet;
-  font-family: Courier;
+  font-family: fantasy;
   font-size: 125%;
   text-align: center;
 }
 
 p {
   color: Violet;
-  font-family: Courier;
+  font-family: fantasy;
   text-align: center;
 }
 
 nav {
-  font-family: Courier;
+  font-family: fantasy;
   display: block;
-  text-align: center;
 }
 
-f {
-  font-family: Courier;
+footer {
+  font-family: fantasy;
   color: Violet;
   font-size: 75%;
-
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.topnav {
   background-color: dodgerblue;
+  overflow: auto;
 }
 
-li {
+.topnav a {
   float: left;
-}
-
-li a {
-  display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 15px 15px;
   text-decoration: none;
+  font-size: 20px;
+  font-family: fantasy;
 }
 
-li a:hover:not(.active) {
+.topnav a:hover {
   background-color: violet;
+  color: white;
 }
 
-.active {
-  background-color: dodgerblue;
+.topnav a.active {
+  background-color: violet;
+  color: white;
 }
