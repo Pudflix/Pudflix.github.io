@@ -8,6 +8,8 @@ h1 {
   font-family: sans-serif;
   font-size: 125%;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 p {
