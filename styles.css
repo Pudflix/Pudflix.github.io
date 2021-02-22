@@ -30,12 +30,13 @@ footer {
 .topnav {
   background-color: dodgerblue;
   overflow: auto;
+  position: center;
 }
 
 .topnav a {
-  float: left;
+  float: none;
   color: white;
-  text-align: left;
+  text-align: none;
   padding: 15px 15px;
   text-decoration: none;
   font-size: 20px;
