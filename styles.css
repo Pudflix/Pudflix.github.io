@@ -8,19 +8,18 @@ h1 {
   font-family: sans-serif;
   font-size: 125%;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 p {
-  color: black;
+  color: Violet;
   font-family: sans-serif;
   text-align: center;
 }
 
 nav {
   font-family: sans-serif;
-  display: block;
 }
 
 footer {
@@ -36,11 +35,12 @@ footer {
   padding: 5px;
   font-family: sans-serif;
   border-radius: 25px;
-
+  width: 70%;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .topnav a {
-  float: none;
   color: white;
   text-align: none;
   padding: 10px;
