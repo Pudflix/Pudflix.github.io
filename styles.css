@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  color: black;
+  color: Violet;
   font-family: sans-serif;
   text-align: center;
 }
@@ -35,7 +35,7 @@ footer {
   padding: 2px;
   font-family: sans-serif;
   border-radius: 25px;
-  width: 50%;
+  width: 40%;
   display: inline-block;
   list-style-type: none;
 }
@@ -56,6 +56,39 @@ footer {
 }
 
 .topnav a.active {
+  background-color: violet;
+  color: white;
+  border-radius: 25px;
+}
+
+.omb {
+  background-color: dodgerblue;
+  overflow: hidden;
+  font-family: sans-serif;
+  border-radius: 25px;
+  width: 13%;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.omb a {
+  color: white;
+  text-align: none;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.omb a:hover {
+  background-color: violet;
+  color: white;
+  border-radius: 25px;
+}
+
+.omb a.active {
   background-color: violet;
   color: white;
   border-radius: 25px;
