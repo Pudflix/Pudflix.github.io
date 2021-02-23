@@ -49,6 +49,16 @@ footer {
   border-radius: 25px;
 }
 
+.omb a {
+  color: white;
+  text-align: none;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
 .topnav a:hover {
   background-color: violet;
   color: white;
@@ -70,16 +80,6 @@ footer {
   display: inline-block;
   list-style-type: none;
   padding: 0px;
-}
-
-.omb a {
-  color: white;
-  text-align: none;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 20px;
-  border-radius: 25px;
-  display: inline-block;
 }
 
 .omb a:hover {
