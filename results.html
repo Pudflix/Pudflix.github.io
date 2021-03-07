@@ -23,31 +23,26 @@
       <a href="tips">Tips & Tricks</a>
       <a href="ombi">Ombi</a>
       <a href="schedule">Show Schedule</a>
-      <a class="active" href="invite">Invite</a>
+      <a href="invite">Invite</a>
       <a href="stats">Watch Statistics</a>
     </div>
   </nav>
 
   <body>
+    <p>
+      INVITE SUBMITTED
+    </p>
+    <script>
+      const resultslist = document.getElementById('results')
+      new URLSearchParams(window.location.search).forEach((value, name) => {
+        resultsList.append('${name}: ${value}')
+        resultsList.append(document.createElement('br'))
+      })
 
-    <h1>The form action attribute</h1>
-
-    <form action=results.html method="GET">
-      <div>
-        <label for="name">Who Invited You:</label>
-        <input type="text" name="name" id=name placeholder="Just Curious" required>
-      </div>
-      <div>
-        <label for="email">Your Email:</label>
-        <input type="email" name="email" id=email placeholder="Invite Will Be Sent Here" required>
-      </div>
-      <button type="submit">Submit</button>
-    </form>
-
+    </script>
 
   </body>
   <footer><i>Made with Hawt Six™ © 2021</i></footer>
 
+
 </html>
-
-
