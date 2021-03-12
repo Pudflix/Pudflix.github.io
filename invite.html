@@ -27,28 +27,17 @@
       <a href="stats">Watch Statistics</a>
     </div>
   </nav>
+
   <p>
-
-  </p>
-  <h2>
-    <form method="post">
-      Enter Email:<br>
-      <input type="email" name="textdata"><br>
-      <input type="submit" name="submit">
-
+    <form action="welcome.php" method="post">
+      Name: <input type="text" name="name"><br>
+      Email: <input type="text" name="email"><br>
+      <input type="submit">
     </form>
-  </h2>
+  </p>
+
   <footer><i>Made with Hawt Six™ © 2021</i></footer>
 
 </html>
 
-<?php
-              
-if(isset($_POST['textdata']))
-{
-$data=$_POST['textdata'];
-$fp = fopen('data.txt', 'a');
-fwrite($fp, $data);
-fclose($fp);
-}
-?>
+
