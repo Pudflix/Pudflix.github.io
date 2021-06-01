@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: #2C3552;
+  background-color: #0f171f;
   text-align: center;
 }
 
 h1 {
-  color: #DCD5D5;
+  color: #62d2fa;
   font-family: sans-serif;
   font-size: 200%;
   text-align: center;
@@ -38,7 +38,7 @@ footer {
 }
 
 .topnav {
-  background-color: #B252A1;
+  background-color: #1b242f;
   overflow: hidden;
   padding: 2px;
   font-family: sans-serif;
@@ -68,19 +68,19 @@ footer {
 }
 
 .topnav a:hover {
-  background-color: #66A1D2;
-  color: #DCD5D5;
+  background-color: #62d2fa;
+  color: #1b242f;
   border-radius: 25px;
 }
 
 .topnav a.active {
-  background-color: #66A1D2;
-  color: #DCD5D5;
+  background-color: #62d2fa;
+  color: #1b242f;
   border-radius: 25px;
 }
 
 .omb {
-  background-color: #B252A1;
+  background-color: #62d2fa;
   overflow: hidden;
   font-family: sans-serif;
   border-radius: 25px;
@@ -90,13 +90,13 @@ footer {
 }
 
 .omb a:hover {
-  background-color: #66A1D2;
+  background-color: #62d2fa;
   color: #DCD5D5;
   border-radius: 25px;
 }
 
 .omb a.active {
-  background-color: #66A1D2;
+  background-color: #62d2fa;
   color: #DCD5D5;
   border-radius: 25px;
 
