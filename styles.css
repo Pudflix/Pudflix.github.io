@@ -58,13 +58,14 @@ footer {
 }
 
 .omb a {
-  color: #DCD5D5;
+  color: #1b242f;
   text-align: none;
   padding: 5px;
   text-decoration: none;
   font-size: 20px;
   border-radius: 25px;
   display: inline-block;
+
 }
 
 .topnav a:hover {
@@ -87,17 +88,19 @@ footer {
   display: inline-block;
   list-style-type: none;
   padding: 0px;
+  font-weight: bold;
 }
 
 .omb a:hover {
-  background-color: #62d2fa;
-  color: #DCD5D5;
+  background-color: #4faaca;
+  color: #1b242f;
   border-radius: 25px;
+
 }
 
 .omb a.active {
-  background-color: #62d2fa;
-  color: #DCD5D5;
+  background-color: #4faaca;
+  color: #1b242f;
   border-radius: 25px;
 
 }
